@@ -121,7 +121,10 @@ article h2.rides{
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
 }
-
+.row{
+  display: flex;
+  margin-top: 1em;
+}
 .product{
   margin-right: 1em;
   padding: 1em;
@@ -195,7 +198,10 @@ footer{
 */
 
 @media (max-width: 480px) {
-
+.hidden-on-lg{
+  display: block;}
+.hidden-on-sm{
+  display: none;}
 }
 
 /* 
